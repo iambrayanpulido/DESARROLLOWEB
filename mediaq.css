@@ -1,0 +1,42 @@
+/* Estilos para dispositivos de pantalla pequeña (smartphones) */
+@media only screen and (max-width: 767px) {
+  .videoytexto {
+    flex-direction: column;/* Cambiar de dirección a columna */
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .textovideo {
+    margin-left: 0;/* Eliminar margen izquierdo */
+  }
+}
+
+/* Estilos para dispositivos de pantalla mediana (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .videoytexto {
+    flex-direction: row-reverse;/* Cambio de dirección a fila invertida */
+  }
+
+  .video {
+    width: 60%;
+    height: auto;
+    float: right !important;/*  Quitar Float y que se coloque a la derechaa*/
+  }
+
+  .textovideo {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
+
+/* Estilos para dispositivos de pantalla grande (escritorios) */
+@media only screen and (min-width: 992px) {
+  .videoytexto {
+    flex-direction: row-reverse;
+  }
+
+  }

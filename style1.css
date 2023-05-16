@@ -1,0 +1,237 @@
+
+/* Estilos generales */
+body {
+    font-family: 'Quicksand', sans-serif !important;
+   background-image: url(../IMAGENES/FONDOWEB2.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+  }
+  
+
+  .carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .barranav {
+    background-color: rgb(92, 70, 156) !important;
+  }
+  
+  .textonav li a {
+    color: white !important;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  nav ul li:hover {
+    background-color: rgb(98, 73, 171);
+    transition: 0.8s all;
+  }
+  
+  .img-logo {
+    width: auto;
+    height: 110px;
+  }
+  
+  .carousel-caption h5,
+  .carousel-caption p {
+    color: black;
+    font-size: 50;!important
+  }
+  
+ /* Estilos generales de los post */
+ h2 {
+    color: #000000;
+    font-size: 26px !important;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #383434;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    color: #645a5a;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Estilos específicos para los posts destacados */
+  
+  
+  .post {
+    margin-bottom: 20px;
+    border: 1px solid #373737;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .post h3 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  
+  .post p {
+    margin-bottom: 0;
+  }
+  /* Boton de leer mas */
+  .post a div {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  
+  .post a div:hover {
+    background-color: #0056b3;
+  }
+  
+   /* Estilos para el video y texto */
+
+   .videoytexto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  
+  .video {
+    width: 1250px;
+    height: 400px; 
+    float: right !important;
+  }
+  
+  .textovideo {
+    width: 100%;
+    margin-left: 20px;
+    text-align: center;
+  }
+  /* Estilos de la seccion */
+
+  .seccion{
+    background-color:  rgb(219, 223, 234);
+    margin-top: 20px;
+  }
+
+  /* Estilos de la imagen de estadísticas de marketing */
+  .figure {
+    text-align: center !important;
+    float: left;
+  }
+  
+  .figure img {
+    display: block;
+    margin: 0 auto;
+    margin: -20px auto 0;
+  }
+  .figure-caption{
+    color: #010000;
+  }
+
+  /* Estilos del texto de estadísticas de marketing */
+
+  .textoeestadistica {
+    text-align:center; 
+    margin: 20px auto;
+    font-size: 15px;
+  }
+  
+ .postcontenedor{
+  width: 100%;
+  overflow: hidden;
+ }
+ 
+ .contenedor{
+
+  padding: 20px;
+  padding-right: -20px;
+  background-color: rgb(248, 249, 250);
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+ }
+ 
+  .postcontenedor img{
+    float: left;
+  margin-right: 10px;
+  }
+ 
+  
+  /* Estilos específicos para el footer */
+ .footer {
+  background-color: rgb(92, 70, 156);
+  padding: 40px 0;
+  margin-top: 20px;
+  width: 100%;
+ }
+
+ .footer h3 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-bottom: 20px;
+ }
+
+  .footer p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .footer ul {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-left: 20px;
+    list-style-type: none;/* Eliminar los puntos de la liste predeterminado */
+  }
+
+ 
+  /* Punto de lista */
+  .footer ul li:before { /* Agegar unos nuevos puntos en la lista */
+    content: "\2023"; /* Tipos de punto de lista */
+    color: rgb(255, 255, 255); 
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  /* ICONOS */
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(9, 8, 8);
+    font-size: 20px;
+    background-color: rgb(237, 238, 238);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .social-icons a:hover {
+    background-color: rgb(193, 174, 252);
+    color: rgb(255, 255, 255);
+  }
+
+   
+    /*PAGINA 2 */
+
+    .seccion2{
+      background-color: rgb(227, 223, 253);
+      margin-top: 20px;
+    }
